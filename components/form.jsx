@@ -2,7 +2,6 @@ import React from 'react';
 import TextField from 'material-ui/TextField';
 import FlatButton from 'material-ui/FlatButton';
 import io from 'socket.io-client';
-const moment = require('moment');
 let socket = null,
     mssg=[];
 export default class Form extends React.Component{
